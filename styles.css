@@ -1,0 +1,52 @@
+body {
+  background-color: #055052;
+  padding-top: 20px;
+}
+p, h1 {
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-weight: 200;
+}
+
+h1 {
+  font-style: normal;
+}
+
+form {
+  background-color: #152D35;
+  max-width: 300px;
+  margin: 10px auto;
+  border-radius: 10px;
+  padding: 25px;
+}
+.input-label {
+  margin: 10px; 
+  color: white; 
+  display: block;
+}
+#name, #email, #number, #dropdown {
+  display: block;
+  margin: 10px 0px;
+  width: 100%;
+}
+select {
+  font-family: Times New Roman;
+}
+.checkbox-label, .radio-label {
+  display: block;
+  color: white;
+  margin: 0 10px;
+}
+textarea {
+  margin: 10px;
+  width: 100%;
+}
+#submit {
+  font-family: Times New Roman;
+  border: none;
+  background-color: #D4ECDD; 
+  display:block;
+  width: 100%;
+  margin: 10px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<hmtl>
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <h1 id="title">What's Up Man</h1>
+    <p id="description">this is a survey form</p>
+    <form id="survey-form">
+      <label id="name-label" class="input-label">Name <input id="name" type="text" placeholder="Enter your name" required/></label>
+      <label id="email-label" class="input-label">Email <input id="email" type="email" placeholder="Enter your email" required/></label>
+      <label id="number-label" class="input-label">Number <input id="number" type="number" max=120 min=10 placeholder="Number"/></label>
+      <label class="input-label">Select one
+      <select id="dropdown">
+        <option>High</option>
+        <option>Low</option>
+      </select>
+      </label>
+      <label class="input-label">Choose one</label>
+      <label class="radio-label"><input type="radio" name="recommended" value="cold" checked/> cold</label>
+      <label class="radio-label">
+      <input type="radio" name="recommended" value="heat"/> heat</label>
+      
+      <label class="input-label">Select</label>
+      <label class="checkbox-label">
+      <input type="checkbox" value="value1"/> Checkbox 1</label>
+      <label class="checkbox-label">
+      <input type="checkbox" value="value2"/> Checkbox 2</label>
+      <label class="checkbox-label">
+      <input type="checkbox" value="value3"/> Checkbox 3</label>
+      <textarea placeholder="write what you want:"></textarea>
+      <input type="submit" value="Submit" id="submit"/>
+    </form>
+  </body>
+</html>
